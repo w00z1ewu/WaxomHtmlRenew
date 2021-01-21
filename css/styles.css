@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+header {
+    background: url(../img/background1.png) no-repeat center top/cover;
+    height: 1025px;
+    background-position: center;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1235px;
+}
+
+.logo {
+    margin-top: 40px;
+    max-height: 100%;
+    float: left;
+}
+
+.waxom {
+    margin-top: 50px;
+    font-size: 36px;
+    display: block;
+    float: left;
+}
+
+.menu {
+    display: block;
+    float: right;
+    list-style: none;
+}
+
+.menu li {
+    float: left;
+    display: block;
+    margin-left: 15px;
+    margin-top: 60px;
+    font-size: 14pt;
+}
+
+.menu li :hover {
+    transition: 0.3s;
+    color: #c7b299;
+    
+}
+
+nav img {
+    display: block;
+    float: right;
+}
+
+
+.pre_title {
+    text-align: center;
+    font-size: 36pt;
+    display: block;
+    margin-top: 305px;
+}
+
+.title {
+    text-align: center;
+    display: block;
+    font-weight: bolder;
+    font-size: 50pt;
+    margin-top: 20px;
+    
+}
+
+.after_title {
+    display: block;
+    text-align: center;
+    font-size: 16pt;
+    margin-top: 30px;
+}
+
+.get_started_button {
+    transition: 0.3s;
+    transition-property: color, background-color;
+    display: block;
+    width: 170px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14pt;
+    font-weight: bolder;
+    background-color: #998675;
+    border-radius: 2px;
+    margin: 55px auto;
+    padding: 20px 0;
+    box-shadow: 0px 3px 1px #736357;
+}
+
+.get_started_button:hover {
+    transition: 0.3s;
+    background-color: #fff;
+    color: #998675;
+    box-shadow: 0 0 0;
+}
+
