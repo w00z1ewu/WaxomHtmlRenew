@@ -116,3 +116,42 @@ nav img {
     box-shadow: 0 0 0;
 }
 
+.wrapped_icons {
+    height: 375px;
+    background-color: #fff;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.wrapped_icons .icons {
+    height: 45px;
+    width: 45px;
+    margin: 0 auto;
+}
+
+.wrapped_icons .title {
+    font-size: 22px;
+    color: #000;
+    margin: 30px 0;
+}
+
+.wrapped_icons .content
+{
+    color: #000;
+    font-size: 14px;
+}
+
+.wrapped_design {
+    display: block;
+}
+
+.wrapped_icons__blocks {
+    width: 270px;
+}
